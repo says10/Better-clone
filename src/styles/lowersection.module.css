@@ -1,0 +1,39 @@
+.lowerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .lowerTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lowerText {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .lowerButton {
+    background-color: #00cc66;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .lowerButton:hover {
+    background-color: #00994d;
+  }
+  

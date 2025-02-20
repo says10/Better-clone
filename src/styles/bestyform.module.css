@@ -1,0 +1,99 @@
+.betsyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #FAF9F6;
+  padding: 24px;
+}
+
+.betsyHeader {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.betsyTitle {
+  color: #047857;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.betsyContact {
+  color: #4B5563;
+  margin-top: 8px;
+}
+
+.betsyAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+
+.betsyHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-top: 16px;
+}
+
+.betsySubheading {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #4B5563;
+}
+
+.betsyOptions {
+  margin-top: 24px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.betsyOptionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 24px;
+  border: 2px solid #D1D5DB;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+.betsyOptionBtn:hover {
+  background-color: #F3F4F6;
+  transform: scale(1.05);
+}
+
+.betsyOptionSelected {
+  background-color: #047857;
+  color: white;
+  border-color: #065F46;
+}
+
+.betsyContinueBtn {
+  margin-top: 24px;
+  padding: 12px 32px;
+  background-color: #047857;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.betsyContinueBtn:hover {
+  background-color: #065F46;
+  transform: scale(1.05);
+}

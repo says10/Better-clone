@@ -1,0 +1,46 @@
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d7a4b;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .services p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .services span {
+    font-weight: bold;
+    color: #2d7a4b;
+  }
+  
+ 
+  
+ 
+ 
+ 
+  

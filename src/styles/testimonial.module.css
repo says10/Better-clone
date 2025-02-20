@@ -1,0 +1,67 @@
+.testimonialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Push left & right sections apart */
+    gap: 2rem; /* Space between video and text */
+    padding: 50px;
+    background-color: #f7f9f8; /* Light gray background */
+  }
+  
+  .videoContainer {
+    flex: 1; /* Takes up equal space */
+    max-width: 50%; /* Limits width */
+    position: relative;
+  }
+  
+  .customerVideo {
+    width: 100%; /* Ensures video is responsive */
+    border-radius: 10px;
+  }
+  
+  .quoteOverlay {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #444;
+  }
+  
+  .textContainer {
+    flex: 1; /* Takes up equal space */
+    max-width: 40%; /* Limits text width */
+    text-align: left; /* Ensures proper alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  .storiesButton {
+    background-color: #004b35;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .storiesButton:hover {
+    background-color: #003926;
+  }
+  
+  .trustpilot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin-top: 40px;
+  }
+  
+  .rating {
+    color: green;
+    font-weight: bold;
+  }
+  
