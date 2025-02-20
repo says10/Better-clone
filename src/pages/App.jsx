@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/index";
-import About from "./pages/about-us";
+import Home from "./index";
+import About from "./about-us";
 import MortgageCalculator from "./mortage-calculator";
 import Start from "./start";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 export default function App() {
   return (
