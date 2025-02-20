@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/aboutus.module.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 export default function About() {
   return (
