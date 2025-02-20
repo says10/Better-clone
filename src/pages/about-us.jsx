@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 export default function About() {
   return (
     <>
-      <Navbar />
+      
       <div className={styles.aboutContainer}>
         {/* Hero Section */}
         <section className={styles.hero}>
@@ -114,7 +114,7 @@ export default function About() {
 
 
       </div>
-      <Footer />
+     
     </>
   );
 }
