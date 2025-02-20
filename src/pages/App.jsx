@@ -1,22 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./index";
-import About from "./about-us";
-import MortgageCalculator from "./mortage-calculator";
-import Start from "./start";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
+import "../styles/globals.css"; // If you have global styles
 
-export default function App() {
+function MyApp({ Component, pageProps }) {
   return (
-    <Router>
+    <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/mortagecalculator" element ={<MortgageCalculator/>}/>
-        <Route path="/start" element={<Start />}/>
-      </Routes>
+      <Component {...pageProps} />
       <Footer />
-    </Router>
+    </>
   );
 }
+
+export default MyApp;
